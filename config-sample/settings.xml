@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <servers>
+    <server>
+      <id>maven.oracle.com</id>
+      <!--
+         The Oracle Maven repository requires a valid user registration and
+         the user should also accept the terms and conditions (T&Cs) by
+         logging into http://maven.oracle.com
+
+         If you decide to encrypt your Oracle Technology Network password, you need to:
+
+         1. generate master password using `mvn -emp`
+         2. put it in settings-security.xml
+            (this file can also point to another file that contains the password)
+         3. encrypt your Oracle Technology Network account password using `mvn -ep`
+         4. put that in this file
+         
+         Otherwise, you don't need settings-security.xml; you can delete it.
+
+         https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc
+         https://maven.apache.org/guides/mini/guide-encryption.html
+      -->
+      <username>The email address that you used to register</username>
+      <password>Your Oracle.com password, optionally encrypted</password>
+      <configuration>
+        <basicAuthScope>
+          <host>ANY</host>
+          <port>ANY</port>
+          <realm>OAM 11g</realm>
+        </basicAuthScope>
+        <httpConfiguration>
+          <all>
+            <params>
+              <property>
+                <name>http.protocol.allow-circular-redirects</name>
+                <value>%b,true</value>
+              </property>
+            </params>
+          </all>
+        </httpConfiguration>
+      </configuration>
+    </server>
+  </servers>
+
+</settings>

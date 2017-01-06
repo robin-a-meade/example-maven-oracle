@@ -1,0 +1,2 @@
+# Ignore the config directory at the root of the project.
+/config/
