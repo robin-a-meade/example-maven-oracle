@@ -43,7 +43,7 @@ mvn dependency:resolve
 
 # See also
 
-- [example-gradle-oracle](https://github.com/robin-a-meade/example-gradle-oracle)
+- [example-gradle-oracle](https://github.com/robin-a-meade/example-gradle-oracle)  
   *github.com/robin-a-meade/example-gradle-oracle*  
   an example of how to use the Oracle Maven Repo with gradle
 - [Get Oracle JDBC drivers and UCP from Oracle Maven Repository (without IDEs)](https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc)  
