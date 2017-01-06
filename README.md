@@ -43,13 +43,17 @@ mvn dependency:resolve
 
 # See also
 
-- [example-gradle-oracle](https://github.com/robin-a-meade/example-gradle-oracle) - an example of how to use the Oracle Maven Repo with gradle
-  *github.com/robin-a-meade/example-gradle-oracle*
+- [example-gradle-oracle](https://github.com/robin-a-meade/example-gradle-oracle)
+  *github.com/robin-a-meade/example-gradle-oracle*  
+  an example of how to use the Oracle Maven Repo with gradle
 - [Get Oracle JDBC drivers and UCP from Oracle Maven Repository (without IDEs)](https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc)  
   *blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc*
-- [Get Oracle JDBC drivers from the Oracle Maven Repository - NetBeans, Eclipse & Intellij](https://maven.apache.org/guides/mini/guide-encryption.html)
+- [Get Oracle JDBC drivers from the Oracle Maven Repository - NetBeans, Eclipse & Intellij](https://maven.apache.org/guides/mini/guide-encryption.html)  
   *blogs.oracle.com/dev2dev/entry/oracle_maven_repository_instructions_for*
+- [Configuring the Oracle Maven Repository](http://docs.oracle.com/middleware/1213/core/MAVEN/config_maven_repo.htm#MAVEN9010)  
   *docs.oracle.com/middleware/1213/core/MAVEN/config_maven_repo.htm*
+- [Password Encryption](https://maven.apache.org/guides/mini/guide-encryption.html)  
+  *maven.apache.org/guides/mini/guide-encryption.html*
 
 <!---
 - []()
