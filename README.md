@@ -19,7 +19,14 @@ To try it,
      details.
   1. otherwise, just enter your plain-text password in `setting.xml` and delete
      `settings-security.xml`.
-1. `mvn dependency:resolve` will download the Oracle JDBC driver to your local repository.
+1. `mvn --settings=./config/settings.xml -Dsettings.security=./config/settings-security.xml dependency:resolve` will download the Oracle JDBC driver to your local repository.
 
+NOTE: Typically you'd edit `settings.xml` and `settings-security.xml` files in your `~/.m2` directory. In that case, the maven command is simplified to:
+
+```
+mvn dependency:resolve
+```
+
+I used the `config` directory just to make it a self-contained example.
 
 See also: [example-gradle-oracle](https://github.com/robin-a-meade/example-gradle-oracle)
