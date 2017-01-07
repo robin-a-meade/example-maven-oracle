@@ -7,19 +7,21 @@
     <server>
       <id>maven.oracle.com</id>
       <!--
-         The Oracle Maven repository requires a valid user registration and
-         the user should also accept the terms and conditions (T&Cs) by
-         logging into http://maven.oracle.com
+         The Oracle Maven repository requires a valid user registration and the
+         user should also accept the terms and conditions by logging into
+         http://maven.oracle.com
 
-         If you decide to encrypt your Oracle Technology Network password, you need to:
+         If you decide to encrypt your Oracle Account password, you need to:
 
          1. generate master password using `mvn -emp`
          2. put it in settings-security.xml
             (this file can also point to another file that contains the password)
-         3. encrypt your Oracle Technology Network account password using `mvn -ep`
+         3. encrypt your Oracle Account password using `mvn -ep`
          4. put that in this file
          
          Otherwise, you don't need settings-security.xml; you can delete it.
+
+         For details on how to encrypt maven repo passwords see:
 
          https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc
          https://maven.apache.org/guides/mini/guide-encryption.html
