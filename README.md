@@ -1,6 +1,6 @@
 An example maven project illustrating how to use [Oracle's maven repo](https://maven.oracle.com).
 
-# To try it:
+# Instructions 
 
 If you don't already have a [free Oracle
 Account](http://www.oracle.com/us/corporate/contact/help/index.html), create
