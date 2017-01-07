@@ -29,7 +29,7 @@ mvn --settings=./config/settings.xml -Dsettings.security=./config/settings-secur
 
 Above command will *resolve* the dependencies that are declared in `pom.xml`.
 The first time this is called, it will download the Oracle JDBC driver to your local repository.
-Subsequent calls will just verify that the JDBC driver exists in you local respository.
+Subsequent calls will just verify that the JDBC driver exists in your local respository.
 
 
 # Notes
